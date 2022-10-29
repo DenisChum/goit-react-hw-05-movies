@@ -1,0 +1,23 @@
+.cast_list {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cast_item {
+    display: flex;
+    gap: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    align-items: center;
+
+    justify-content: center;
+    color: gray;
+    font-weight: 500;
+}

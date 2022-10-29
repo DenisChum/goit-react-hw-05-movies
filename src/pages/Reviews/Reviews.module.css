@@ -1,0 +1,52 @@
+.reviews_list {
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.reviews_item {
+    display: flex;   
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+}
+
+.reviews_author {
+    color: black;
+}
+
+.reviews_content {
+    color: black;
+}.reviews_list {
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.reviews_item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 5px;
+}
+
+.reviews_author {
+    color: black;
+    font-weight: 700;
+}
+
+.reviews_content {
+    color: black;
+}
